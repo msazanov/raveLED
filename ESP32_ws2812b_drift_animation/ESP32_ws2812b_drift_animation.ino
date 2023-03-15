@@ -21,7 +21,7 @@ int potValue;
 int colorIndex;
 
 
-
+//bla bla
 void setup() {
   FastLED.addLeds<CHIPSET, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalSMD5050);
   FastLED.setBrightness( BRIGHTNESS );
